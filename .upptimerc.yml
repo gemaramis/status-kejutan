@@ -1,31 +1,22 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+# Konfigurasi Upptime untuk memantau KEJUTAN, microsite undian OLXmobbi.
+# Dokumentasi lengkap: https://upptime.js.org/docs
+
+owner: gemaramis
+repo: status-kejutan
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Secret Site
-    url: $SECRET_SITE
+  - name: KEJUTAN Production
+    url: https://www.olxmobbi.my.id
+  - name: KEJUTAN Klaim Hadiah
+    url: https://klaimhadiah.olxmobbi.my.id/klaimhadiah
+  - name: KEJUTAN API
+    url: https://www.olxmobbi.my.id/api/sesi
+  - name: KEJUTAN Staging
+    url: https://staging.olxmobbi.my.id
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
-  navbar:
-    - title: Status
-      href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
-
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+  baseUrl: /status-kejutan
+  name: Status KEJUTAN
+  theme: light
+  introTitle: "Status layanan **KEJUTAN**"
+  introMessage: Pemantauan otomatis microsite undian berhadiah OLXmobbi, diperiksa dari server GitHub kira-kira tiap 5 menit.
