@@ -7,8 +7,8 @@ repo: status-kejutan
 sites:
   - name: KEJUTAN Production
     url: https://www.olxmobbi.my.id
-  - name: KEJUTAN Klaim Hadiah
-    url: https://klaimhadiah.olxmobbi.my.id/klaimhadiah
+  - name: KEJUTAN Klaim
+    url: https://klaimhadiah.olxmobbi.my.id/klaimkejutan
   - name: KEJUTAN API
     url: https://www.olxmobbi.my.id/api/sesi
   - name: KEJUTAN Staging
